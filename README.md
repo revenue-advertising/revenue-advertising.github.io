@@ -1,6 +1,11 @@
 # Revenue Advertising
 
-Welcome to **Revenue Advertising** — a modern platform designed to maximize online revenue through intelligent ad placement optimization. 
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/revenue-advertising/revenue-advertising.github.io)
+![GitHub last commit](https://img.shields.io/github/last-commit/revenue-advertising/revenue-advertising.github.io)
+![GitHub issues](https://img.shields.io/github/issues/revenue-advertising/revenue-advertising.github.io)
+![GitHub](https://img.shields.io/github/license/revenue-advertising/revenue-advertising.github.io)
+
+Welcome to **Revenue Advertising** — a platform designed to maximize online revenue through intelligent ad placement optimization.
 
 ## 🚀 Key Features
 - **AI-Driven Optimization:** Enhance ad performance with automated, data-driven decisions.
@@ -18,11 +23,10 @@ Welcome to **Revenue Advertising** — a modern platform designed to maximize on
     npm install
     npm start
     ```
-3. Deploy to your platform of choice or GitHub Pages for easy hosting.
+3. Deploy to your platform of choice or [GitHub Pages](https://pages.github.com/) for easy hosting.
 
 ## 💡 Integration
 Easily integrate ad units with the following setup:
-
 1. Add the provided JavaScript code snippet to your HTML pages.
 2. Customize the display settings to fit your needs.
 
