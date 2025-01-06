@@ -13,17 +13,6 @@ Welcome to **Revenue Advertising** — a platform designed to maximize online re
 - **Quick Setup:** Simple integration with minimal configuration required.
 - **Reliable Support:** Reach out to our team for expert assistance.
 
-## ⚙️ Quick Setup
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/revenue-advertising/revenue-advertising.github.io.git
-    ```
-2. Install dependencies and start the project:
-    ```bash
-    npm install
-    npm start
-    ```
-3. Deploy to your platform of choice or [GitHub Pages](https://pages.github.com/) for easy hosting.
 
 ## 💡 Integration
 Easily integrate ad units with the following setup:
