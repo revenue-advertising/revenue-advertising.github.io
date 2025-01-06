@@ -13,8 +13,8 @@
     <meta name="rating" content="General">
     <meta name="distribution" content="Global">
     <meta name="classification" content="Business, Technology, Advertising">
-<meta name="google-site-verification" content="R0gLf9j6GQFw5Fb9cw0zIqA_cUWk7IbjE-6fkPG6tKU" />
-<meta name="msvalidate.01" content="5B3728BF75ED738DD3AA48608797A7DA" />
+    <meta name="google-site-verification" content="R0gLf9j6GQFw5Fb9cw0zIqA_cUWk7IbjE-6fkPG6tKU" />
+    <meta name="msvalidate.01" content="5B3728BF75ED738DD3AA48608797A7DA" />
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -118,9 +118,10 @@
             box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
             border-radius: 8px;
             padding: 2rem;
-            margin: 1rem;
+            margin: 1rem auto;
             text-align: center;
             animation: fadeIn 0.8s ease-out;
+            max-width: 300px;
         }
 
         /* Keyframes */
@@ -134,16 +135,33 @@
             color: var(--white);
             text-align: center;
             padding: 2rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            z-index: 9999;
         }
 
-        footer p {
-            margin: 0;
+        footer a {
+            color: var(--accent);
+            text-decoration: none;
+            margin: 0 0.5rem;
         }
 
-        /* Additional Styling for Ad Sections */
+        footer a:hover {
+            color: var(--white);
+        }
+
         .ad-section {
             margin: 2rem 0;
             text-align: center;
+        }
+
+        .floating-sidebar-ad {
+            position: fixed;
+            top: 50%;
+            right: 0;
+            transform: translateY(-50%);
+            z-index: 1000;
         }
     </style>
 </head>
@@ -182,16 +200,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <section class="container">
             <div class="row justify-content-center">
                 <div class="col-md-4 card">
-                    <h3>Feature 1</h3>
-                    <p>Advanced AI optimization for maximum revenue.</p>
+                    <h3>Advanced AI Optimization</h3>
+                    <p>Maximize your revenue with intelligent AI systems.</p>
                 </div>
                 <div class="col-md-4 card">
-                    <h3>Feature 2</h3>
-                    <p>Simple integration with top ad networks.</p>
+                    <h3>Easy Integration</h3>
+                    <p>Connect with top ad networks effortlessly.</p>
                 </div>
                 <div class="col-md-4 card">
-                    <h3>Feature 3</h3>
-                    <p>Dedicated support for all our clients.</p>
+                    <h3>Dedicated Support</h3>
+                    <p>24/7 support to help you grow your business.</p>
                 </div>
             </div>
         </section>
@@ -209,7 +227,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </main>
 
     <!-- Floating Sidebar Ad -->
-    <div id="floating-sidebar-ad" style="position: fixed; top: 50%; right: 0; transform: translateY(-50%); z-index: 1000;">
+    <div id="floating-sidebar-ad" class="floating-sidebar-ad">
         <script src="//turkstench.com/67/aa/49/67aa496f4b5250d65cf54c0f1d99a5a3.js"></script>
     </div>
 
@@ -220,7 +238,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2025 Revenue Pro. All Rights Reserved.</p>
+        <p>&copy; 2025 Revenue Pro | Connect with us: 
+            <a href="https://t.me/RexxCheat" target="_blank"><i class="fab fa-telegram"></i> Rexx Cheat</a> 
+            <a href="https://t.me/RektDevelopers" target="_blank"><i class="fab fa-telegram"></i> Rekt Developers</a>
+        </p>
     </footer>
 
     <!-- Analytics and Tracking -->
